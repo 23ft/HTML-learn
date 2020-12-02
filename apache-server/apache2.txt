@@ -1,0 +1,42 @@
+	
+	-Servidor-
+-> Personas -> Navegador -> Servidor Web (paginas html en funcion de las personas)
+
+-> Apache. (linux) 
+ 
+	-Lenguaje presentacion -> HTML
+	-Lenguaje aplicacion -> PHP (Menus, interaccion)
+	-Base datos -> MySql (recommend xd)
+
+-Pasos Iniciales-
+
+> sudo apt update
+> sudo apt upgrade
+
+-Instalacion Apache-
+	
+> sudo apt-get install apache2 -y
+> ip
+
+-Configurando archivo raiz html-
+
+> direccion -> /var/www/html/
+> sudo mv index.html old_index.html
+> sudo nano index.html
+
+IP MIA -> http://192.168.0.32
+
+-Codigo Basico HTML xd-
+
+<html>   
+        <head>
+                <title> Pagina Rasperry Pi ECCI</title>
+        </head>
+        <body>
+        <h1> Hola Mundo Debian PAPA!</h1>
+        </body>
+</html>
+
+
+
+
