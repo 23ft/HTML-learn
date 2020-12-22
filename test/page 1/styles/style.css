@@ -10,15 +10,10 @@ hr{
   border-style: ridge;
   border-width: 5px;
   width: 1300px;
-}
-
-.barra1{
   height: 13px;
 }
 
-.barra2{
-  height: 7px;
-}
+
 
 /* Elementos Basicos */
 p {
@@ -30,7 +25,13 @@ p {
 h1, h2, h3{
   font-size: 30px;
   color: black;
-  border-color: white;
-  border-width: 6px;
-  border-style: ridge;
+  border-radius: 5px;
+  border-color: red;
+  border-width: 5px
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  align-content: center;
 }
