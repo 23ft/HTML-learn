@@ -1,57 +1,36 @@
-body {
-    background-color: darkgrey;
+body{
+  background-color: gray;
 }
 
-.inicio{
-    background-color: lightslategray;
-    
-}
-
+/* Barras Decoracion */
 hr{
-    
-    color: crimson;
+  color: black;
+  background-color: black;
+  border-color: white;
+  border-style: ridge;
+  border-width: 5px;
+  width: 1300px;
 }
 
-.title{
-    color: blueviolet;
-    font-size: 50px;
-
+.barra1{
+  height: 13px;
 }
 
-ul{
-    color: black;
-
+.barra2{
+  height: 7px;
 }
 
-.name{
-    color: chocolate;
-    font-size: 22px;
-}
-
-.age{
-    color: cornsilk;
-    font-size: 22px;
-    font-style: oblique;
-}
-
-.number{
-    color: saddlebrown;
-    font-size: 22px;
-    font-style: italic;
-}
-
-.biografia{
-    background-color: salmon;
-}
-
-.title-bio{
-    color: seashell;
-    font-size: 40px;
-    align-content: center;
+/* Elementos Basicos */
+p {
+  font-family: fantasy;
+  font-size: 20px;
 
 }
 
-.bio{
-    color: black;
-    font-size: 22px;
+h1, h2, h3{
+  font-size: 30px;
+  color: black;
+  border-color: white;
+  border-width: 6px;
+  border-style: ridge;
 }
