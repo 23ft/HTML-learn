@@ -1,3 +1,5 @@
-# HTML-learn
+## HTML-learn
 
-En la carpeta 'test' podras encontrar las paginas ejemplo y prueba en carpetas.
+# la carpeta 'Page Trash' son ejemplos sin sentido.
+
+ En la carpeta 'test' podras encontrar las paginas ejemplo y prueba en carpetas.
