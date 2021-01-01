@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    /* Margen de 0 */
+    padding: 0;
+    box-sizing: border-box;
+    /* Facilita el tamaño del elemento para que no tome el ancho como = padding + relleno + width, simplemente toma el ancho predeterminado sin tomar los demas elementos */
+}
+
+/* Añadimos los colores como variable */
+
+:root {
+    --purple-dark: #170312;
+    --purple-medium: #33032d;
+    --purple-light: #531253;
+    --gray-light: #eaeaea;
+    --white: #f4fffd;
+}
+
+/* Cuerpo */
+
+body {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* La fuente que añadimos al inicio en el hmtl la llamamos, en dado caso no se encuentre se deja la fuente despues de la coma "sans-serif" */
+}
+
+p {
+    font-size: 22px;
+}
+
+/* Cabeza Pagina */
+
+.contenido-cabeza {
+    background-image: url("img/cabeza.jpg");
+    /* Fondo de imagen, la funcion url para la direccion de la imagen. */
+    width: 100%;
+    height: 100vh;
+    /* del alto del dispositivo movil */
+    background-position: center;
+    background-size: cover;
+    /* abarcar el 100% de la pagina y el alto que sobre se recotar */
+    background-attachment: fixed;
+}
+
+.contenido-cabeza .fondo{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+
+}
+
+.contenido-cabeza .texto{
+    width: 100%;
+    height: 100vh;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
