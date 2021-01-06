@@ -1,0 +1,164 @@
+.main{
+    background-color: black;
+    background-image: url("red-hook-criterium-nueva-york.jpg");
+    /* background-repeat: repeat-x; /* Para que lado queremos que se repita la imagen */
+    background-attachment: scroll; /* propiedad de agarre puede estar fijo o como tambien moverse al scroll */
+    background-size: cover; 
+    background-position: center top; 
+
+}
+.body1, .body2{
+    background-color: white;
+    border: 5px double black; /* Size (border-width), style (border-style), color (border-color) */
+    padding: 5px;
+    margin-left: 35%;
+    width: 450px;
+    
+}
+
+.cabezera {
+    font-family: sans-serif;
+
+
+}
+
+.cabezera h1, .body2 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-variant: small-caps; /* Colocar mayusculas */
+    color: rgb(255, 0, 0);
+    text-align: center;
+    vertical-align: middle; /* Posicion en el contenedor top, middle, bottom */   
+}
+
+/* *************************************************************************************************** */
+
+/* La propiedad de 'vertical-align' solo funciona para algunos elementos, las siguientes dos reglas son de como se puede aplicar para dos divs, y un parrafo, para ello se usan las propiedas 'display' */
+
+.section-2{
+    height: 120px;
+    width: 300px;
+    background-color: blue;
+    display: inline-table; /* propiedad para la manera en la que mostramos el elemento. */
+}
+
+.section-2 .parr1{
+    display: table-cell; 
+    vertical-align: middle; /* posicion parrafo dentro de section-2 en la mitad (midle) */
+    color: white;
+    font-weight: bold;
+    background-image: url("red-hook-criterium-nueva-york.jpg"); 
+    over
+}
+
+
+/* Propiedad de text-decoration */
+
+.section-3 .uno{
+    text-decoration: none;
+}
+.section-3 .dos{
+    text-decoration: inherit;
+}
+.section-3 .tres{
+    text-decoration: overline;
+}
+
+.section-3 .cuatro{
+    text-decoration: underline;
+}
+
+.section-3 .cinco{
+    text-decoration: line-through;
+    text-indent: 30px;         /* identacion texto (se toma la primera liena) */
+    text-shadow: 5px 3px 5px gray; /* Sombra de texto el primer dato es la distancia X, el segundo Y, El tercer    dato es el radio de la sombra, el ultimo el color.*/
+    text-transform: capitalize; /* transformaciones en el texto como capitalizar cada letra value:(uppercase, lowercase)*/
+    word-spacing: 3px; /* espacio entre cada palabra */
+}
+.section-3 .seis{
+    color: purple;
+    /* white-space: pre; /* con esta propiedad el texto solo se ajusta a los saltos en linea, con las demas propiedades como 'pre-line' solo se organiza los espacios a uno, y saltos de linea. */
+    font-weight: bold;
+    text-align: inherit;
+}
+
+.barr{
+    color: purple;
+
+}
+
+.parr4{
+    color: black;
+    text-justify: inherit;
+    font-variant: small-caps;
+ }
+
+/* Decoracion Listas */
+
+ol.rgb{
+    list-style-type: square;
+    /* list-style-image: url("imagen"); */
+    /* list-style-position: inside; */
+    list-style-position: inherit;
+
+    list-style: square inside none; /* La manera corta de decorar una lista, "type position img" */
+}
+
+ul.rgb2{
+    list-style-type: georgian;
+}
+
+/* Tablas */
+
+table.tabla{
+    border-collapse: separate; /* posocion de colapso de las celdas */
+    border-spacing: 1.5px 1.5px; /* espacio de los bordes */
+    empty-cells: hide; 
+}
+
+td{
+    border: 1px solid black;
+}
+
+.cap{
+    caption-side: bottom; /* Posicion caption */
+}
+
+/* links */
+a{
+    color: black;    
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:active{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+/* Cursor mouse */
+
+.mouse .question-mouse{
+    cursor: help;
+    border: black solid 2px;
+    display: inline-block;
+    padding: 0px 0px 0px 0px; /* top righ bottom left */
+}
+
+/* span (display: block) */
+
+.block-display span{
+    border: 2px solid black;
+    display: block;
+}

@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+.main{
+    background-color:whitesmoke;
+}
+    
+/*
+
+    Barra Navegacion
+
+*/
+
+.nav{
+    display: table;
+
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    
+    font-weight: 700;
+    font-size: 0.9rem;
+    background-color: white;
+    
+}
+
+.nav .navrow{
+    display: table-row;
+} 
+/* Secciones */
+
+
+.nav .navrow .links{
+    display: table-cell;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.nav .navrow .links a#sections{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease all; 
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    display: inline-block;
+    width: 18vw;
+}
+
+.nav .navrow .links a img{
+    width: 32px;
+     
+}
+
+.nav .navrow .links a#sections:hover{
+    background-color: whitesmoke;
+    font-weight: bolder;
+    border: black solid .5px;
+    border-right: black groove 5px;
+    transform: translateY(13px);
+
+}
+
+/* Logo barra navegacion */
+
+.nav .navrow .nav-logo {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.nav-logo a.home img{
+    width: 32px;
+    margin-left: 5px;
+    transition: 0.5s ease all;
+}
+
+.nav-logo a.home img:hover, .nav-shop img:hover{
+    transform: translateY(10px);
+}
+
+/* Carrito compras */
+
+.nav .navrow .servicios{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+
+}
+
+.nav-shop img{
+    width: 32px;
+    position: relative;
+    margin-right: 5px;
+    transition: 0.5s ease all;
+} 
+
+/* Tamaño global celdas */
+
+.servicios, .nav-logo{
+    width: 10%;
+}
+
+/*
+
+    Presentacion Productos - Inicio
+
+*/
+
+
+/* Presentacion proudctos principales */
+
+.presentacion{
+    margin: 30px;
+}
+.presentacion .casilla1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    top: 20%;
+    left: 15%;
+}
+
+.presentacion .casilla2{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    top: 20%;
+    left: 40%;
+}
+
+.presentacion #products-home:hover{
+    border: rgba(0,0,0, 0) solid 5px;
+}
